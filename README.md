@@ -23,3 +23,6 @@ The idea behind 30 Seconds of C was inspired some people who created similar col
 
 ## How to Contribute
 Do you have a cool idea for a new snippet? Maybe some code you use often and is not part of our collection? Contributing to 30 seconds of code is as simple as 1,2,3,4!
+
+## Credits
+*Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).*
