@@ -4,11 +4,10 @@
 - Data types are used to define a variable before to use in a program.
 - Size of a variable, constant and array are determined by data types.
 
-Four Data Types in C Language:
-| Type | Data Types |
-| --- | --- |
-Basic data types | int, char, float, double
-Enumeration data type | enum
-Derived data type| pointer, array, structure, union
-Void data type |void
+## Four Data Types in C Language:
+**Data Types **
+**Basic data types: int, char, float, double
+**Enumeration data type: enum
+**Derived data type: pointer, array, structure, union
+**Void data type: void
 
