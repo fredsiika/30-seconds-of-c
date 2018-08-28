@@ -3,8 +3,9 @@
 ---
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](https://github.com/fredsiika/30-seconds-of-c/blob/master/LICENSE)
 
-<br>"Curated collection of useful C Programming turorials, snippets, and projects that you can understand in 30 seconds or less."
+<br>🔌Your plug to a curated collection of useful **C Programming** turorials, snippets, and projects that you can understand in 30 seconds or less.
 **Work In Progress**
+
 ### Getting Started
 - Use <kbd>Ctrl</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> to search for a snippet.
 - Contributions welcome, please read the [contribution guide](CONTRIBUTING.md).
@@ -15,10 +16,10 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 ## [Table of Contents](https://github.com/fredsiika/30-seconds-of-c/edit/master/README.md#table-of-contents)
 ### 📃Basic Data Types
 <summary>View contents</summary>
-- [`int`](#int)
-- [`char`](#char)
-- [`float`](#float)
-- [`double`](#double)
+- Integer Data Type <kbd>int</kbd>
+- Character Data Type <kbd>char</kbd>
+- Floating Point Data Type <kbd>float</kbd><kbd>Double</kbd>
+
 
 ### ➗Enumeration Data Type
 <summary>View contents</summary>
