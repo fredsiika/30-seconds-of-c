@@ -17,9 +17,10 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 ### 📃Basic Data Types
 <summary>View contents</summary>
 - Integer Data Type <kbd>int</kbd>
-- Character Data Type <kbd>char</kbd>
-- Floating Point Data Type <kbd>float</kbd><kbd>Double</kbd>
 
+- Character Data Type <kbd>char</kbd>
+
+- Floating Point Data Type <kbd>float</kbd><kbd>Double</kbd>
 
 ### ➗Enumeration Data Type
 <summary>View contents</summary>
