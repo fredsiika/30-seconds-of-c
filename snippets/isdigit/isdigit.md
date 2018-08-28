@@ -4,7 +4,7 @@ isdigit( ) function in C language checks whether given character is digit or not
 ```c
 int isdigit ( int x );
 ```
-EXAMPLE PROGRAM FOR ISDIGIT() FUNCTION IN C:
+EXAMPLE PROGRAM FOR isdigit() FUNCTION IN C:
 ```c
 #include <stdio.h>
 
@@ -18,7 +18,6 @@ int main()
         printf("\n Character input IS a digit");
     else
         printf("\n Character input is NOT a digit");
-    printf ()
 }
 ```
 Output:
