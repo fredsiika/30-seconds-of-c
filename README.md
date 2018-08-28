@@ -1,7 +1,7 @@
 # 30 Seconds of C 
 ---
 "Curated collection of useful C Programming turorials, snippets, and projects that you can understand in 30 seconds or less."
-**(Work In Process)**
+**Work In Progress**
 
 **Motivation for this project** 
 The core goal of **30 seconds of C** is to provide a public record of my journey to learn c programming. It's my goal to provide a quality resource for both beginners and advanced c progammers/developers. My initial motivation for creating this repository was to use it as a tool to document my journey at the [42 Silicon Valley](https://www.42.us.org/) - an engineering and programming. The contents of this repo are designed to help you write real time C programs on your own. 
