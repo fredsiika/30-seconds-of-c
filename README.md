@@ -1,4 +1,4 @@
-![30-Seconds-of-C-Logo](/assets/30-seconds-of-c-icon.svg)
+![30-Seconds-of-C-Logo](https://github.com/fredsiika/30-seconds-of-c/blob/master/assets/logo/30-seconds-of-c-icon.svg)
 # 30 Seconds of C 
 ---
 "Curated collection of useful C Programming turorials, snippets, and projects that you can understand in 30 seconds or less."
