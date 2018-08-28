@@ -5,9 +5,9 @@
 - Size of a variable, constant and array are determined by data types.
 
 Four Data Types in C Language:
-	<table>
+	<pre><code><table>
 		<tr><th>Type</th><th>Data Types</th></tr>
 		<tr><td>Basic data types</td><td>int, char, float, double</td></tr>
 		<tr><td>Derived data type</td><td>pointer, array, structure, union</td> 
 		</tr> 
-	</table>
+	</table></code></pre>
