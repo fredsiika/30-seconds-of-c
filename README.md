@@ -1,6 +1,7 @@
 ![30-Seconds-of-C-Logo](/logo.svg)
 # 30 Seconds of C 
 ---
+[![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](https://github.com/fredsiika/30-seconds-of-c/blob/master/LICENSE)
 "Curated collection of useful C Programming turorials, snippets, and projects that you can understand in 30 seconds or less."
 **Work In Progress**
 
