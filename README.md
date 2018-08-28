@@ -12,13 +12,28 @@
 **Motivation for this project** 
 The core goal of **30 seconds of C** is to provide a public record of my journey to learn c programming. It's my goal to provide a quality resource for both beginners and advanced c progammers/developers. My initial motivation for creating this repository was to use it as a tool to document my journey at the [42 Silicon Valley](https://www.42.us.org/) - an engineering and programming. The contents of this repo are designed to help you write real time C programs on your own. 
 
-## Table of Contents
-### :icon: Basic Data Types
+## [Table of Contents](https://github.com/fredsiika/30-seconds-of-c/edit/master/README.md#table-of-contents)
+### 📃Basic Data Types
 <summary>View contents</summary>
-* [`int`](#int)
-* [`char`](#char)
-* [`float`](#float)
-* [`double`](#double)
+- [`int`](#int)
+- [`char`](#char)
+- [`float`](#float)
+- [`double`](#double)
+
+### ➗Enumeration Data Type
+<summary>View contents</summary>
+- [`enum`](#enum)
+
+### 📚Derived Data Type
+<summary>View contents</summary>
+- [`pointer`](#pointer)
+- [`array`](#array)
+- [`structure`](#structure)
+- [`union`](#union)
+
+### 🎛️Void Data Type
+<summary>View contents</summary>
+- * [`void`](#void)
 
 
 **Additional Learning Resources**
