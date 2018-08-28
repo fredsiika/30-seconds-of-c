@@ -11,4 +11,4 @@ Here's what you can do to help:
 - Tag uncategorized snippets by running `npm run tagger` and adding the appropriate tags next to the script name in `tag_database` (see below).
 
 **Coming soon**: As soon as I can stop procrastinating and finish writing these scripts
--- Tagger Script: a script that updates the tag_databse file and logs stats for snippet tags.
+- Tagger Script: a script that updates the tag_databse file and logs stats for snippet tags.
