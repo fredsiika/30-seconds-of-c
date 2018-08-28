@@ -16,26 +16,30 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 ## [Table of Contents](https://github.com/fredsiika/30-seconds-of-c/edit/master/README.md#table-of-contents)
 ### 📃Basic Data Types
 <summary>View contents</summary>
-- Integer Data Type <kbd>int</kbd>
 
-- Character Data Type <kbd>char</kbd>
+- Integer <kbd>int</kbd>
 
-- Floating Point Data Type <kbd>float</kbd><kbd>Double</kbd>
+- Character <kbd>char</kbd>
+
+- Floating Point <kbd>float</kbd> <kbd>Double</kbd>
 
 ### ➗Enumeration Data Type
 <summary>View contents</summary>
-- [`enum`](#enum)
+
+- Emumeration <kbd>enum</kbd>
 
 ### 📚Derived Data Type
 <summary>View contents</summary>
-- [`pointer`](#pointer)
-- [`array`](#array)
-- [`structure`](#structure)
-- [`union`](#union)
+
+- <kbd>pointer</kbd>
+- <kbd>array</kbd>
+- <kbd>structure</kbd>
+- <kbd>union</kbd>
 
 ### 🎛️Void Data Type
 <summary>View contents</summary>
-- * [`void`](#void)
+
+- <kbd>void</kbd>
 
 
 **Additional Learning Resources**
