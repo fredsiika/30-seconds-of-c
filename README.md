@@ -1,7 +1,8 @@
 ![30-Seconds-of-C-Logo](/logo.svg)
 # 30 Seconds of C 
 ---
-[![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](https://github.com/fredsiika/30-seconds-of-c/blob/master/LICENSE)
+![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 <br>🔌Your plug to a curated collection of useful **C Programming** turorials, snippets, and projects that you can understand in 30 seconds or less.
 **Work In Progress**
