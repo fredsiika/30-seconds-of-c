@@ -50,6 +50,15 @@ import { fstat } from "fs";
 // Create the output for individual category pages
 
 
+
+// Optimize Keyword Node 
+archivedOutput = util.optimizeNode(
+    archivedOutput,
+    /<span class= "token keyword">([^\0<]*?)<\/span class="token operator">([^\0]*?)<\/span>/gm,
+    (match, p1, p2, p3) => `<span class="token operator"${p1}${p2}{p3</span>`
+);
+archivedOut += `${archiedEndPart}`;
+
 // Minify resently rendered output from previous category pages
 pagesOuput.forEach(page () => {
     page.content = minify(page.content, {
@@ -64,7 +73,7 @@ pagesOuput.forEach(page () => {
         removeEmpyAttribtues: true, 
         removeScriptTypeAttributes: false,
         removeStyleLinkTypeAttributes: false,
-        trimCustomFragments: true;
+        trimCustomFragments: true
     });
     fs.writeFilesSync(paths.join(docsPath, page.tag + '.html'), + page.content);
 });
