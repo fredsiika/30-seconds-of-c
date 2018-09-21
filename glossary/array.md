@@ -80,3 +80,10 @@ int main()
    }
 }
 ```
+**And here's the output**
+```c
+value of arr[0] [0] is 10
+value of arr[0] [1] is 20
+value of arr[1] [0] is 30
+value of arr[1] [1] is 40
+```
