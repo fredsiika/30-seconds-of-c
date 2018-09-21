@@ -47,3 +47,12 @@ int main()
  
 } 
 ```
+
+**And here's the output:**
+```c 
+value of arr[0] is 10
+value of arr[1] is 20
+value of arr[2] is 30
+value of arr[3] is 40
+value of arr[4] is 50
+```
