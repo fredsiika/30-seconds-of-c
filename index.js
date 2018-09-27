@@ -1,7 +1,7 @@
 /*
  *  Title: Basic Node Entry Point for the API
  *  Description: Simple file that declares a few functions and invokes them.
- *  Author: Fred C. Siika
+ *  Author: Fred C. Siika <https://github.com/fredsiika>
  *  Date: 27 September 2018
  */
 
@@ -9,6 +9,8 @@
 // const fs = require('fs');
 const mathLib = require('./lib/math');
 const snippetsLib = require('./lib/snippets');
+const chalk = require('chalk');
+
 
 // const snippetTextFile = snippetsLib.getRandomSnippetFunctions('./lib/snippets', true, ['snippets.txt']);
 // const fileTitles = [];
@@ -22,7 +24,7 @@ const app = {};
 
 // Configuration
 app.config = {
-    'timeBetweenSnippets' : 1000
+    'timeBetweenSnippets' : 100
 };
 
 // Function that prints a random snippet
@@ -41,8 +43,13 @@ app.printASnippet = function(){
     var selectedSnippet = allSnippets[randomNumber - 1];
 
     // Send the snippet to the console
-    console.log(selectedSnippet);
+    console.log(`${chalk.green(selectedSnippet)}`);
 };
+
+// Function that creates a markdown file 
+app.CreateMarkdownSnippet(){
+    
+}
 
 // Function that loops indefinitely, calling the printASnippet function as it goes
 app.indefiniteLoop = function(){

@@ -22,10 +22,10 @@ const STATIC_PARTS_PATH = './static-parts';
 
 const makeExamples = data => {
   data =
-    data.slice(0, data.lastIndexOf('```js')).trim() +
+    data.slice(0, data.lastIndexOf('```c')).trim() +
     misc.collapsible(
       'Examples',
-      data.slice(data.lastIndexOf('```js'), data.lastIndexOf('```')) +
+      data.slice(data.lastIndexOf('```c'), data.lastIndexOf('```')) +
         data.slice(data.lastIndexOf('```'))
     );
   return `${data}\n<br>${misc.link('⬆ Back to top', misc.anchor('Table of Contents'))}\n\n`;
