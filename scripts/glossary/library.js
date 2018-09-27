@@ -59,5 +59,6 @@ const glossaryFilesContentReducer = (accumulator, currentFilename) => {
   } catch (err) {
     console.log(`${chalk.red('ERROR!')} During glossary README generation: ${err}`);
     process.exit(1);
-  }
+}
+
   
