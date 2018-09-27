@@ -15,7 +15,7 @@ const snippets = {};
 snippets.allSnippets = function(){
     
     // Read the text file containing the snippets
-    let fileContents = fs.readFileSync(__dirname + '/snippets.txt', 'utf8');
+    let fileContents = fs.readFileSync(__dirname + '../scripts/snippets.txt', 'utf8');
 
     // Turn the string into an array
     let arrayOfSnippets = fileContents.split(/\r?\n/);
