@@ -1,4 +1,4 @@
-# ft_print_reverse_alphabet();
+# ft_print_reverse_alphabet
 Print the alphabet in reverse. Output will print lowercase characters from 'z' to 'a'.
 ```c
 #include <unistd.h>
