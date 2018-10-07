@@ -10,6 +10,7 @@
 - int (2 byte) can store values from -32,768 to +32,767
 - int (4 byte) can stor values from -2,147,483,648 to +2,147,483,647
 - For integer values that cross the above limit, use "long int" and "long long int" for which the limits are very high
+<<<<<<< HEAD
 
 Integer types: (non-fractional numbers)
 ```c
@@ -33,3 +34,5 @@ As for the other integer types...
 - A good rule of thumb is to stick to the size that your processor can deal with the easiestand fastest.
 - In the next section we cover a larger type '**long long**'. Before resorting to the '**long long**' type, you may want to use the floating-point type first.
 
+=======
+>>>>>>> e3fc25179322e9cac5975244bcecf16bd42a9531
