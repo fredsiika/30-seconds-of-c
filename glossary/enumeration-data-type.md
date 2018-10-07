@@ -51,7 +51,7 @@ int main() {
 
 **Output:**
 ```c
-Month is March
+Month is Mar
 ```
 Test it out here:
 http://www.pythontutor.com/c.html#mode=edit
