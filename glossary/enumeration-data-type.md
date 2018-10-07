@@ -23,33 +23,29 @@ enum month { Jan = 20, Feb, Mar };
 
 Example **enum** program in C
 ```c
-#include <stdio.h>
 #include <unistd.h>
 
 void ft_putchar(char c)
 {
-write(1, &c, 1);
+  write(1, &c, 1);
 }
 
 void ft_putstr(char *str)
 {
-	while (*str != '\0')
-	{
-		write(1, str++, 1);
-	}	
+  while (*str != '\0')
+    write(1, str++, 1);
 }
 
-int 	main()
-{
-		enum MONTH { Jan = 0, Feb Mar };
-		enum MONTH month = mar;
-		if (month == 0)
-			ft_putstr("Value of Jan");
-		else if (month == 1)
-			ft_putstr("Month is Feb");
-		if (month == 2)
-			ft_putstr("Month is Mar");
-		return (0);
+int main() {
+  enum MONTH { Jan = 0, Feb, Mar };
+  enum MONTH month = Mar;
+  if (month == 0)
+    ft_putstr("Value of Jan");
+  else if (month == 1)
+    ft_putstr("Month is Feb");
+  if (month == 2)
+    ft_putstr("Month is Mar");
+  return (0);
 }
 ```
 
@@ -57,3 +53,5 @@ int 	main()
 ```c
 Month is March
 ```
+Test it out here:
+http://www.pythontutor.com/c.html#mode=edit
