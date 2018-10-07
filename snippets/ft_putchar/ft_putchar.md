@@ -12,8 +12,8 @@ void ft_putchar(char c)
 
 int main(void)
 {
-	ft_putchar(1, 'c', 1);
-	ft_putchar(1, '\n', 1);
+	ft_putchar(1, 'c', 1); 		/* Prints out the character 'c' followed by a newline */
+	ft_putchar(1, '\n', 1); 	
 	return (0);
 ```
 
