@@ -10,13 +10,12 @@
 - int (2 byte) can store values from -32,768 to +32,767
 - int (4 byte) can stor values from -2,147,483,648 to +2,147,483,647
 - For integer values that cross the above limit, use "long int" and "long long int" for which the limits are very high
-<<<<<<< HEAD
 
 Integer types: (non-fractional numbers)
 ```c
-signed char		minimum range: -127..+127
-unsigned char	minimum range: 0..255
-signed short	minimum range: -32767..+32767
+signed char		  minimum range: -127..+127
+unsigned char	  minimum range: 0..255
+signed short	  minimum range: -32767..+32767
 unsigned short 	minimum range: 0..65535
 signed int    	minimum range: -32767..+32767
 unsigned int  	minimum range: 0..65535
@@ -33,6 +32,3 @@ As for the other integer types...
 - It's a good idea to use the type **int** if you simply need to store some values which are not ridiculously large.
 - A good rule of thumb is to stick to the size that your processor can deal with the easiestand fastest.
 - In the next section we cover a larger type '**long long**'. Before resorting to the '**long long**' type, you may want to use the floating-point type first.
-
-=======
->>>>>>> e3fc25179322e9cac5975244bcecf16bd42a9531
