@@ -13,9 +13,9 @@
 
 Integer types: (non-fractional numbers)
 ```c
-signed char		  minimum range: -127..+127
-unsigned char	  minimum range: 0..255
-signed short	  minimum range: -32767..+32767
+signed char		 minimum range: -127..+127
+unsigned char	 minimum range: 0..255
+signed short	 minimum range: -32767..+32767
 unsigned short 	minimum range: 0..65535
 signed int    	minimum range: -32767..+32767
 unsigned int  	minimum range: 0..65535
