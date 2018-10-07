@@ -9,24 +9,24 @@ unsigned \
 break	\
 else \
 long \
-switch\ 
-continue \	
+switch \
+continue \
 for \
 signed \
 void \
 case \
 enum \
-register \	
+register \
 typedef \
 default	\
 goto \
-sizeof \	
+sizeof \
 volatile \
 char \
 extern \
-return \	
+return \
 union \
-do \	
+do \
 if \
-static \ 
-while \
+static \
+while
