@@ -16,14 +16,17 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 
 
 ## [Table of Contents](https://github.com/fredsiika/30-seconds-of-c/edit/master/README.md#table-of-contents)
-### 📃Basic Data Types
+### 📃[Basic Data Types](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/c-data-types.md)
 <summary>View contents</summary>
 
-- Integer <kbd>int</kbd>
+**Integer**<br>
+- <kbd>[int](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/integer-data-type.md)</kbd>
 
-- Character <kbd>char</kbd>
+**Character**<br>
+- <kbd>char</kbd>
 
-- Floating Point <kbd>float</kbd> <kbd>Double</kbd>
+**Floating Point**<br>
+- <kbd>float</kbd> <kbd>Double</kbd>
 
 ### ➗Enumeration Data Type
 <summary>View contents</summary>
