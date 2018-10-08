@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)
 
 
-<br>🔌Your plug to a curated collection of useful **C Programming** turorials, snippets, and projects that you can understand in 30 seconds or less.
+<br>🔌Your plug to a curated collection of useful **C Programming** tutorials, snippets, and projects that you can understand in 30 seconds or less.
 **Work In Progress**
 
 ### Getting Started
