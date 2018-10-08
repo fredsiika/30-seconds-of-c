@@ -10,3 +10,4 @@ As a member of the team that manages 30 seconds of C, you have the following res
 - **Contribute when you want, moderate when you can.** If you have a lot on your plate outside of this project, it's alright. It's better to take a break for a few days rather than hastily deal with issues and pull requests that might break things.
 
 ## Guidelines for merging pull requests and making changes to the project
+- [Usual guidelines](https://github.com/fredsiika/30-seconds-of-c/blob/master/CONTRIBUTING.md) apply. Make sure to follow them, like everybody else.
