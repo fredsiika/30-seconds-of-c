@@ -11,3 +11,9 @@ As a member of the team that manages 30 seconds of C, you have the following res
 
 ## Guidelines for merging pull requests and making changes to the project
 - [Usual guidelines](https://github.com/fredsiika/30-seconds-of-c/blob/master/CONTRIBUTING.md) apply. Make sure to follow them, like everybody else.
+- **For a pull request to be considered ready to merge, there should be at least 2 (preferably 3) reviews approving it for merge.** There are, however, certain exceptions:
+  - If a pull request only fixes typos, there is no need to wait for a second reviewer (unless you are not certain these were not typos in the first place).
+  - If a pull request only clarifies a snippet's description or enforces the style guide for an existing snippet, you might be able to merge it without getting a second reviewer to review it, but only if you are certain about it.
+Make sure pull requests pass the Travis CI build, otherwise try and find out what's wrong and inform the author of the pull request.
+  - Changes to build scripts, guidelines and things that might break the processes we have in place need to be reviewed by [@fredsiika](https://github.com/fredsiika)
+  
