@@ -16,4 +16,7 @@ As a member of the team that manages 30 seconds of C, you have the following res
   - If a pull request only clarifies a snippet's description or enforces the style guide for an existing snippet, you might be able to merge it without getting a second reviewer to review it, but only if you are certain about it.
 Make sure pull requests pass the Travis CI build, otherwise try and find out what's wrong and inform the author of the pull request.
   - Changes to build scripts, guidelines and things that might break the processes we have in place need to be reviewed by [@fredsiika](https://github.com/fredsiika)
-  
+- After merging a pull request, make sure to check for untagged snippets and tag them appropriately. Try to keep all snippets tagged, so that the list and website are up to date.
+- **If you make changes or additions to existing snippets or if you want to add your own snippets, you will go through the pull request process that everyone else goes.** Exceptions apply similarly to the ones mentioned above about merging pull requests (i.e. typos, description clarification and the way script and build process changes are handled). 
+- **Pull requests suggested by collaborators should be reviewed by at least two other collaborators to be considered ready to merge.
+- **Pull requests that are inactive for over a week should be closed or put on hold.**
