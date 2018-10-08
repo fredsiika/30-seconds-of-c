@@ -16,21 +16,21 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 
 
 ## [Table of Contents](https://github.com/fredsiika/30-seconds-of-c/edit/master/README.md#table-of-contents)
-### 📃Basic Data Types
+### 📃[Basic Data Types](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/c-data-types.md)
 <summary>View contents</summary>
 
-- Integer <kbd>int</kbd>
+-  <kbd>[int](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/integer-data-type.md)</kbd>
 
-- Character <kbd>char</kbd>
+-  <kbd>[char](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/integer-data-type.md)</kbd>
 
-- Floating Point <kbd>float</kbd> <kbd>Double</kbd>
+- Floating Point: <kbd>[float](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/floating-point-data-type.md)</kbd> <kbd>[Double](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/floating-point-data-type.md)</kbd>
 
-### ➗Enumeration Data Type
+### ➗[Enumeration Data Type](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/enumeration-data-type.md)
 <summary>View contents</summary>
 
-- Emumeration <kbd>enum</kbd>
+- <kbd>enum</kbd>
 
-### 📚Derived Data Type
+### 📚[Derived Data Type](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/derived-data-type.md)
 <summary>View contents</summary>
 
 - <kbd>pointer</kbd>
@@ -38,7 +38,7 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 - <kbd>structure</kbd>
 - <kbd>union</kbd>
 
-### 🎛️Void Data Type
+### 🎛️[Void Data Type](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/void-data-type.md)
 <summary>View contents</summary>
 
 - <kbd>void</kbd>
