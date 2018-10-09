@@ -1,10 +1,29 @@
-language: c
-compiler: 
-  - gcc
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  on:
-    branch: master
+language: node_js
+cache:
+  directories:
+    - node_modules
+node_js"
+  - node
+before_install:
+  - npm install -g semistandard
+  - npm install -g prettier
+script:
+  - npm run tagger
+  - npm run linter
+  - npm run webber
+  - npm run packager
+  - npm run tester
+  - npm run exxtractor
+  - npm run glossary:keymaker
+  - npm run glossary:librarian
+after_success:
+  - chmod +x .travis/push.sh
+  - .travis/push.sh
+
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+#   keep-history: true
+#   on:
+#     branch: master
