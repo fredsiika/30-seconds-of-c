@@ -14,3 +14,6 @@ if (util.isTravisCI() && util.isNotTravisCronOrAPI()) {
   process.exit(0);
 }
 // Declare paths
+const SNIPPETS_ACTIVE = './snippets';
+const SNIPPETS_ARCHIVE = './snippets_archive';
+const TEST_PATH = './test';
