@@ -59,3 +59,34 @@ snippetFiles
       .split('\n')
       .map(line => line)
       .filter((_, i) => blockMarkers[0] < i && i < blockMarkers[1]);
+
+      // Export template for snippetName.js
+    const exportFile = `${fileFunction.join('\n')}\nmodule.exports = ${fileName};\n`;
+
+    // Export template for snippetName.test.js which generates a example test & other information
+    const exportTest = [
+      `const expect = require('expect');`,
+      `const ${fileName} = require('./${fileName}.js');`,
+      `\ntest('${fileName} is a Function', () => {`,
+      `  expect(${fileName}).toBeInstanceOf(Function);`,
+      `});\n`
+    ].join('\n');
+
+    // Write/Update exportFile which is snippetName.js in respective dir
+    fs.writeFileSync(path.join(TEST_PATH, fileName, `${fileName}.js`), exportFile);
+
+    if (!fs.existsSync(path.join(TEST_PATH, fileName, `${fileName}.test.js`))) {
+      // if snippetName.test.js doesn't exist inrespective dir exportTest
+      fs.writeFileSync(`${TEST_PATH}/${fileName}/${fileName}.test.js`, exportTest);
+    }
+    
+    // return fileName for later use
+    return fileName;
+  });
+try {
+  fs.writeFileSync(path.join(TEST_PATH, 'testlog'), `Test log for: ${new Date().toString()}\n`);
+  childProcess.execSync('npm test');
+} catch (e) {
+  fs.appendFileSync(path.join(TEST_PATH, 'testlog'));
+}
+console.timeEnd('Tester');
