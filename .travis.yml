@@ -2,7 +2,7 @@ language: node_js
 cache:
   directories:
     - node_modules
-node_js"
+node_js:
   - node
 before_install:
   - npm install -g semistandard
@@ -19,11 +19,3 @@ script:
 after_success:
   - chmod +x .travis/push.sh
   - .travis/push.sh
-
-# deploy:
-#   provider: pages
-#   skip-cleanup: true
-#   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-#   keep-history: true
-#   on:
-#     branch: master
