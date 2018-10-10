@@ -6,7 +6,11 @@
  */
 
 //  Dependencies
-const fs = require('fs');
+const fs = require('fs-extra');
+const path = require('path');
+const chalk = require('chalk');
+const crypto =require('crypto');
+
 
 //  App object
 const snippets = {};
