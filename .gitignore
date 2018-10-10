@@ -4,7 +4,8 @@
 *.obj
 *.elf
 *._
-
+/._*
+*._*
 # Prerequisites
 *.d
 
