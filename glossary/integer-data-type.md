@@ -13,14 +13,14 @@
 
 Integer types: (non-fractional numbers)
 ```c
-signed char		 minimum range: -127..+127
+signed char		 minimum range: -128..+127
 unsigned char	 minimum range: 0..255
-signed short	 minimum range: -32767..+32767
-unsigned short 	minimum range: 0..65535
-signed int    	minimum range: -32767..+32767
-unsigned int  	minimum range: 0..65535
-signed long    	minimum range: -2147483647..+2147483647
-unsigned long  	minimum range: 0..4294967295
+signed short	 minimum range: -32,768..+32,767
+unsigned short 	minimum range: 0..65,535
+signed int    	minimum range: -32,767..+32,767
+unsigned int  	minimum range: 0..65,535 or 0..4,294,967,295
+signed long    	minimum range: -2,147,483,648..+2,147,483,647
+unsigned long  	minimum range: 0..4,294,967,295
 ```
 A couple of things to note:
 - The type **char** may be equivalent to either a **signed char** or **unsigned char** (this depends on your compiler), but it is always a separate type from either of these.
