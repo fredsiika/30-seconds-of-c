@@ -1,10 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   aff_last_param.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fredsiik <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/01/18 00:50:00 by fredsiik          #+#    #+#             */
+/*   Updated: 2019/01/18 00:51:35 by fredsiik         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
-int				main(int ac, char **av)
+int	main(int argc, char **argv)
 {
-					if (ac > 1)
-							while (*av[ac -1])
-									write(1, av[ac -1]++, 1);
-					write(1, "\n", 1);
-					return(0);
+	if (argc > 1)
+		while (*argv[argc - 1])
+			write(1, argv[argc - 1]++, 1);
+	write(1, "\n", 1);
+	return(0);
 }
+
