@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fredsiik <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/01/18 00:50:00 by fredsiik          #+#    #+#             */
-/*   Updated: 2019/01/18 00:51:35 by fredsiik         ###   ########.fr       */
+/*   Created: 2019/01/25 16:13:00 by fredsiik          #+#    #+#             */
+/*   Updated: 2019/01/25 16:14:44 by fredsiik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ int	main(int argc, char **argv)
 	if (argc > 1)
 		while (*argv[argc - 1])
 			write(1, argv[argc - 1]++, 1);
-	write(1, "\n", 1);
-	return(0);
+		write(1, "\n", 1);
+	return (0);
 }
-
