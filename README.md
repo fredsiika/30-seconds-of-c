@@ -1,10 +1,11 @@
 ![30-Seconds-of-C-Logo](/logo.svg)
 # 30 Seconds of C
----
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)![License](https://img.shields.io/badge/license-CC0--1.0-blue.svg)
 
-
 <br>🔌Your plug to a curated collection of useful **C Programming** tutorials, snippets, and projects that you can understand in 30 seconds or less.
+
+---
 <br>**P.S: This repository is a work in progress**
 
 ### Getting Started
@@ -77,6 +78,10 @@ The idea behind 30 Seconds of C was inspired some people who created similar col
 
 ## How to Contribute
 Do you have a cool idea for a new snippet, or want to add your own tips? Checkout [contributing.md](./CONTRIBUTING.md).
+## Collaborators
+---
+[<img src="https://github.com/fredsiika.png" width="100px;"/>](https://github.com/fredsiika)<br/>[<sub>Fred Siika</sub>](https://github.com/fredsiika)<br> [<img src="https://github.com/gracenellore.png" width="100px;"/>](https://github.com/gracenellore)<br/>[<sub>Grace Nelore</sub>](https://github.com/gracenellore)
+
 ## Credits
 *Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).*
 <br>This site was built using [GitHub Pages](https://pages.github.com/).
