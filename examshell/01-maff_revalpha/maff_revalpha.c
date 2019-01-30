@@ -1,17 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   maff_revalpha.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fredsiik <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/01/18 01:06:19 by fredsiik          #+#    #+#             */
+/*   Updated: 2019/01/18 01:13:30 by fredsiik         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
-void ft_putchar(char c)
+int	main()
 {
-	write(1, &c, 1);
+	write(1, "zYxWvUtSrQpOnMlKjIhGfEdCbA\n", 27);
+	return(0);
 }
 
-int main(void)
-{
-	int i;
-
-	i = 123;
-	while (i-- > 97)
-		(i % 2 == 0) ? ft_putchar(i) : ft_putchar(i - 32);
-	ft_putchar('\n');
-	return (0);
-}

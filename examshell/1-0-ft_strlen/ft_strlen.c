@@ -6,7 +6,7 @@
 /*   By: fredsiik <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/18 16:49:34 by fredsiik          #+#    #+#             */
-/*   Updated: 2019/01/18 16:54:33 by fredsiik         ###   ########.fr       */
+/*   Updated: 2019/01/25 00:28:35 by fredsiik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,6 @@ int	main(void)
 {
 	char str[] = "Papito Frederico";
 
-	printf("%d\n", ft_strlen(str));
+	printf("%d characters\n", ft_strlen(str));
 	return (0);
 }

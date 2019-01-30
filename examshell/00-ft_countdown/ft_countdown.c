@@ -2,12 +2,12 @@
 
 int				main(void)
 {
-					char c;
-					c = '9';
-					while (c >= '0')
+					char countdown;
+					countdown = '9';
+					while (countdown >= '0')
 					{
-							write(1, &c, 1);
-							c--;
+							write(1, &countdown, 1);
+							countdown--;
 					}
 					write(1, "\n", 1);
 					return (0);

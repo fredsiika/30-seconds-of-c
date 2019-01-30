@@ -1,33 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   test.ft_strlen.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fredsiik <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/01/18 01:28:18 by fredsiik          #+#    #+#             */
-/*   Updated: 2019/01/18 01:31:28 by fredsiik         ###   ########.fr       */
+/*   Created: 2019/01/25 00:48:27 by fredsiik          #+#    #+#             */
+/*   Updated: 2019/01/25 00:55:19 by fredsiik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_print_numbers(void)
+int	ft_strlen(char *str)
 {
-	char number;
+	int i;
 
-	number = '0';
-	while (number <= '9')
-	{
-		write(1, &number, 1);
-		number++;
-	}
-	write(1, "\n", 1);
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
-
-int	main()
-{
-	ft_print_numbers();
-	return(0);
-}
-
