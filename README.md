@@ -137,6 +137,39 @@ int	main(void)
 
 <br>[⬆ Back to top](#table-of-contents)
 
+### [ft_print_numbers](https://github.com/fredsiika/30-seconds-of-c/tree/master/examshell/00-ft_print_numbers)<br>
+
+Write a function that displays all digits in ascending order.
+
+Your function must be declared as follows:
+
+<code>void	ft_print_numbers(void);</code>
+
+<details>
+	<summary>Answer</summary>
+
+```c
+#include <unistd.h>
+
+int	main(void)
+{
+	char c;
+
+	c = '0';
+	while (c <= '9')
+	{
+		write(1, &c,1);
+		c++;
+	}
+	write(1, "\n", 1);
+	return (0);
+}
+```
+
+</details>
+
+<br>[⬆ Back to top](#table-of-contents)
+
 ### Additional Learning Resources
 If you are new to C Programming, try taking a look at some of these references.
 
