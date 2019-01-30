@@ -49,7 +49,7 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 - <kbd>void</kbd>
 
 ---
-### Exam Shell
+### [Exam Shell](https://github.com/fredsiika/30-seconds-of-c/tree/master/examshell)
 **Purpose:**
 This repo provides useful tips to understand how to achieve 100% at 42 Silicon Valley exams.
 A great developer like you 😎, however, should not just memorize the answers.
