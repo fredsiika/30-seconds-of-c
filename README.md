@@ -199,8 +199,8 @@ The idea behind 30 Seconds of C was inspired some people who created similar col
 
 ## How to Contribute
 Do you have a cool idea for a new snippet, or want to add your own tips? Checkout [contributing.md](./CONTRIBUTING.md).
+
 ## Collaborators
----
 [<img src="https://github.com/fredsiika.png" width="100px;"/>](https://github.com/fredsiika)<br/>[<sub>Fred Siika</sub>](https://github.com/fredsiika)<br> [<img src="https://github.com/gracenellore.png" width="100px;"/>](https://github.com/gracenellore)<br/>[<sub>Grace Nelore</sub>](https://github.com/gracenellore)
 
 ## Credits
