@@ -59,12 +59,14 @@ If you are new to C Programming, try taking a look at some of these references
 
 #### Websites
 ---
-- [GeeksforGeeks](https://www.geeksforgeeks.org/c-programming-language/)
-- [SoloLearn](https://www.sololearn.com/Course/C/)
+- [GeeksforGeeks - A computer science portal for geeks.](https://www.geeksforgeeks.org/c-programming-language/)
+- [SoloLearn - C Tutorial](https://www.sololearn.com/Course/C/)
+
 
 #### Online Integrated Development Environments (IDEs)
 - [C Tutor - Visualize C code execution to learn C online](http://www.pythontutor.com/c.html#mode=edit)
 - [Ideone - An nline compiler and debugging tool](https://ideone.com/)
+- [SoloLearn - Code Playground](https://code.sololearn.com/#c)
 
 ## Inspiration for this project
 The idea behind 30 Seconds of C was inspired some people who created similar collections in other programming languages and environments. Here are the ones we like the most:
