@@ -5,7 +5,7 @@
 
 
 <br>🔌Your plug to a curated collection of useful **C Programming** tutorials, snippets, and projects that you can understand in 30 seconds or less.
-**Work In Progress**
+**P.S: This repository is a work in progress**
 
 ### Getting Started
 - Use <kbd>Ctrl</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> to search for a snippet.
@@ -62,8 +62,7 @@ The idea behind 30 Seconds of C was inspired some people who created similar col
 - [30 Seconds of Interviews](https://30secondsofinterviews.org) by **fejes713**
 
 ## How to Contribute
-Do you have a cool idea for a new snippet? Maybe some code you use often and is not part of our collection? Contributing to 30 seconds of code is as simple as 1,2,3,4!
-
+Do you have a cool idea for a new snippet, or want to add your own tips? Checkout [contributing.md](./CONTRIBUTING.md).
 ## Credits
 *Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).*
 <br>This site was built using [GitHub Pages](https://pages.github.com/).
