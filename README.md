@@ -48,7 +48,58 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 
 - <kbd>void</kbd>
 
+---
+### Exam Shell
+**Purpose:**
+This repo provides useful tips to understand how to achieve 100% at 42 Silicon Valley exams.
+A great developer like you 😎, however, should not just memorize the answers.
 
+---
+- [aff_a](https://github.com/fredsiika/30-seconds-of-c/blob/master/examshell/00-aff_a/aff_a.c)<br>
+Create a program that takes a string, and displays the first 'a' character it
+encounters in it, followed by a newline. If there are no 'a' characters in the
+string, the program just writes a newline. If the number of parameters is not
+1, the program displays 'a' followed by a newline.
+
+```c 
+$> ./aff_a "abc" | cat -e
+a$
+$> ./aff_a "dubO a POIL" | cat -e
+a$
+$> ./aff_a "zz sent le poney" | cat -e
+$
+$> ./aff_a | cat -e
+a$
+```
+
+<details>
+  <summary>Answer</summary>
+    
+```c
+#include <unistd.h>
+
+int	main(int argc, char **argv)
+{
+	if (argc != 2)
+		write(1, "a", 1);
+	else
+	{
+		while (*argv[1])
+			if (*argv[1] == 'a')
+			{
+				write(1, "a", 1);
+				argv[1]++;
+				break;
+			}
+	}
+	write(1, "\n", 1);
+	return (0);
+}
+```
+
+</details>
+
+<br>[⬆ Back to top](#table-of-contents)
 ### Additional Learning Resources
 If you are new to C Programming, try taking a look at some of these references.
 
