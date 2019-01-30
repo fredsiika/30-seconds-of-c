@@ -5,7 +5,7 @@
 
 
 <br>🔌Your plug to a curated collection of useful **C Programming** tutorials, snippets, and projects that you can understand in 30 seconds or less.
-**P.S: This repository is a work in progress**
+<br>**P.S: This repository is a work in progress**
 
 ### Getting Started
 - Use <kbd>Ctrl</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> to search for a snippet.
@@ -48,11 +48,23 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 - <kbd>void</kbd>
 
 
-**Additional Learning Resources**
-If you are new to C Programming(like myself), try taking a look at some of these references 
+### Additional Learning Resources
+If you are new to C Programming, try taking a look at some of these references
+
+#### Books
+---
 - ANSI 89 – American National Standards Institute, American National Standard for Information Systems Programming Language C, 1989.
 - Kernighan 78 – B. W. Kernighan and D. M. Ritchie, The C Programming Language, Prentice-Hall: Englewood Cliffs, NJ, 1978. Second edition, 1988.
 - Thinking 90 – C* Programming Guide, Thinking Machines Corp. Cambridge Mass., 1990.
+
+#### Websites
+---
+- [GeeksforGeeks](https://www.geeksforgeeks.org/c-programming-language/)
+- [SoloLearn](https://www.sololearn.com/Course/C/)
+
+#### Online Integrated Development Environments (IDEs)
+- [C Tutor - Visualize C code execution to learn C online](http://www.pythontutor.com/c.html#mode=edit)
+- [Ideone - An nline compiler and debugging tool](https://ideone.com/)
 
 ## Inspiration for this project
 The idea behind 30 Seconds of C was inspired some people who created similar collections in other programming languages and environments. Here are the ones we like the most:
