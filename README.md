@@ -49,13 +49,14 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 - <kbd>void</kbd>
 
 ---
-### Exam Shell
+## [Exam Shell](https://github.com/fredsiika/30-seconds-of-c/tree/master/examshell)
 **Purpose:**
 This repo provides useful tips to understand how to achieve 100% at 42 Silicon Valley exams.
 A great developer like you 😎, however, should not just memorize the answers.
 
 ---
-- [aff_a](https://github.com/fredsiika/30-seconds-of-c/blob/master/examshell/00-aff_a/aff_a.c)<br>
+### [aff_a](https://github.com/fredsiika/30-seconds-of-c/blob/master/examshell/00-aff_a/)<br>
+
 Create a program that takes a string, and displays the first 'a' character it
 encounters in it, followed by a newline. If there are no 'a' characters in the
 string, the program just writes a newline. If the number of parameters is not
@@ -100,6 +101,75 @@ int	main(int argc, char **argv)
 </details>
 
 <br>[⬆ Back to top](#table-of-contents)
+
+### [ft_countdown](https://github.com/fredsiika/30-seconds-of-c/tree/master/examshell/00-ft_countdown)<br>
+
+Write a program that displays all digits in descending order, followed by a
+newline.
+
+```c
+$> ./ft_countdown | cat -e
+9876543210$
+$>
+```
+
+<details>
+	<summary>Answer</summary>
+
+```c
+#include <unistd.h>
+
+int	main(void)
+{
+	char c;
+	c = '9';
+	while (c >= '0')
+	{
+		write(1, &c, 1);
+		c--;
+	}
+	write(1, "\n", 1);
+	return (0);
+}
+```
+
+</details>
+
+<br>[⬆ Back to top](#table-of-contents)
+
+### [ft_print_numbers](https://github.com/fredsiika/30-seconds-of-c/tree/master/examshell/00-ft_print_numbers)<br>
+
+Write a function that displays all digits in ascending order.
+
+Your function must be declared as follows:
+
+<code>void	ft_print_numbers(void);</code>
+
+<details>
+	<summary>Answer</summary>
+
+```c
+#include <unistd.h>
+
+int	main(void)
+{
+	char c;
+
+	c = '0';
+	while (c <= '9')
+	{
+		write(1, &c,1);
+		c++;
+	}
+	write(1, "\n", 1);
+	return (0);
+}
+```
+
+</details>
+
+<br>[⬆ Back to top](#table-of-contents)
+
 ### Additional Learning Resources
 If you are new to C Programming, try taking a look at some of these references.
 

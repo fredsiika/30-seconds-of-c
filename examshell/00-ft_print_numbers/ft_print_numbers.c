@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+<<<<<<< HEAD
 void	ft_print_numbers(void)
 {
 	char number;
@@ -26,8 +27,37 @@ void	ft_print_numbers(void)
 }
 
 int	main()
+||||||| merged common ancestors
+int				main(void)
+=======
+int	main(void)
+>>>>>>> c3f1b0936dbcc4c2e1ceb927a3edf742d3f148ac
 {
+<<<<<<< HEAD
 	ft_print_numbers();
 	return(0);
+||||||| merged common ancestors
+					char c;
+
+					c = '0';
+					while (c <= '9')
+					{
+							write(1, &c,1);
+							c++;
+					}
+					write(1, "\n", 1);
+					return (0);
+=======
+	char c;
+
+	c = '0';
+	while (c <= '9')
+	{
+		write(1, &c,1);
+		c++;
+	}
+	write(1, "\n", 1);
+	return (0);
+>>>>>>> c3f1b0936dbcc4c2e1ceb927a3edf742d3f148ac
 }
 
