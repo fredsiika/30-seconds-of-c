@@ -77,6 +77,11 @@ The idea behind 30 Seconds of C was inspired some people who created similar col
 
 ## How to Contribute
 Do you have a cool idea for a new snippet, or want to add your own tips? Checkout [contributing.md](./CONTRIBUTING.md).
+## Collaborators
+---
+[<img src="https://github.com/fredsiika.png" width="100px;"/>](https://github.com/fredsiika)<br/>[<sub>Fred Siika</sub>](https://github.com/fredsiika)<br> | [<img src="https://github.com/gracenellore.png" width="100px;"/>](https://github.com/gracenellore)<br/>[<sub>Grace Nelore</sub>](https://github.com/gracenellore) | 
+[<img src="https://github.com/simonchong.png" width="100px;"/>](https://github.com/rizznits)<br> [<sub>Simon Chong</sub>](https://github.com/rizznits)<br>
+
 ## Credits
 *Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).*
 <br>This site was built using [GitHub Pages](https://pages.github.com/).
