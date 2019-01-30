@@ -49,14 +49,14 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 
 
 ### Additional Learning Resources
-If you are new to C Programming, try taking a look at some of these references
+If you are new to C Programming, try taking a look at some of these references.
 
 #### Books
 ---
 - ANSI 89 – American National Standards Institute, American National Standard for Information Systems Programming Language C, 1989.
 - Kernighan 78 – B. W. Kernighan and D. M. Ritchie, The C Programming Language, Prentice-Hall: Englewood Cliffs, NJ, 1978. Second edition, 1988.
 - Thinking 90 – C* Programming Guide, Thinking Machines Corp. Cambridge Mass., 1990.
-
+- [Head First C - A complete learning experience for C and structured imperative programming.](http://www.allitebooks.com/head-first-c/)
 #### Websites
 ---
 - [GeeksforGeeks - A computer science portal for geeks.](https://www.geeksforgeeks.org/c-programming-language/)
