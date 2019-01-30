@@ -61,7 +61,7 @@ If you are new to C Programming, try taking a look at some of these references
 ---
 - [GeeksforGeeks - A computer science portal for geeks.](https://www.geeksforgeeks.org/c-programming-language/)
 - [SoloLearn - C Tutorial](https://www.sololearn.com/Course/C/)
-
+- [C Programming Google+ Community](https://plus.google.com/u/0/communities/103796658293092790651)
 
 #### Online Integrated Development Environments (IDEs)
 - [C Tutor - Visualize C code execution to learn C online](http://www.pythontutor.com/c.html#mode=edit)
