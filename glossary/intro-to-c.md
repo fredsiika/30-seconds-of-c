@@ -14,3 +14,18 @@ Next step is to run your source file through a `compiler`. The compiler is respo
 
 **3. Output Executable:**
 A new file called an **executable** is created once the source file has successfully compiled. This file is the program you will run. This is because it contains the stream of 0s and 1s **machine code** that te computer can understand.
+
+### Conclusion
+- Most operating systems are written in C. 
+- C is used where speed, space, and portability are important. 
+- Most other computer languages are also written in C. 
+- And most game software is written in C.
+--- 
+There are three C standards that you may
+stumble across. ANSI C is from the late 1980s
+and is used for the oldest code. A lot of things
+were ixed up in the C99 standard from 1999. And
+some cool new language features were added in
+the current standard, C11, released in 2011. The
+differences between the different versions aren’t
+huge, and we’ll point them out along the way. 
