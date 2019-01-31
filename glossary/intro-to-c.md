@@ -9,11 +9,35 @@ that’s a lot closer to what machines really understand.
 **1. Create Source:**
 First step is to create a source file which contains human-readable code in C.
 
+Example: intro.c source file
+```c
+#include <sdtio.h>
+
+int main()
+{
+  puts("Intro: Getting Started with C Programming");
+  return (0);
+}  
+```
 **2. Compile Source:**
 Next step is to run your source file through a `compiler`. The compiler is responsible for converting your C code into machine code. This process is necessary becuase computers only understand one language: **machine code,** which is a binary stream of 0s and 1s.
 
+```c 
+gcc intro.c -o intro
+```
+
 **3. Output Executable:**
 A new file called an **executable** is created once the source file has successfully compiled. This file is the program you will run. This is because it contains the stream of 0s and 1s **machine code** that te computer can understand.
+
+```c
+$> ./intro
+```
+
+Output
+
+```c
+Intro: Getting Started with C Programming
+```
 
 ### Conclusion
 - Most operating systems are written in C. 
