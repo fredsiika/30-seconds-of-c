@@ -16,3 +16,36 @@ function getIndex() {
         });
     });
 }
+
+const indexPromise = getIndex();
+const portPromise = getPort({ port: 3000 });
+
+module.exports = async function runServer(path, commitsPromise) {
+    const server = http.createServer((request, response) => {
+        if (request.url === "/") {
+            Promise.all([indexPromise, commitsPromise]).then(([index, commits]) => {
+                const newIndex = index.replace(
+                    "<script>window._CLI=null</script>",
+                    `<script>window._CLI={commits:${JSON.stringify(
+						commits
+					)},path:'${path}'}</script>`
+                );
+                var headers = { "Content-Type": "text/html" };
+                response.writeHead(200, headers);
+                response.write(newIndex);
+                response.end();
+            });
+        } else {
+            return handler(request, response, { public: sitePath });
+        }
+    });
+
+    const port = await portPromise;
+
+    return new Promise(resolve => {
+        server.listen(port, () => {
+            console.log("Running at http://localhost:" + port);
+            open("http://localhost:" + port);
+        });
+    });
+};
