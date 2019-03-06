@@ -16,5 +16,5 @@ float       //minimum range: +/- 1E-37..1E+37  minimum precision: 6 digits
 double      //minimum range: +/- 1E-37..1E+37  minimum precision: 10 digits
 long double //minimum range: +/- 1E-37..1E+37  minimum precision: 10 digits
 ```
-With several compilers **double** and **long double** are equivalent. 
+With several compilers `double` and `long double` are equivalent. 
 That combined with the fact that most standard mathematical functions work with type double, is a good reason to always use the type double if you have to work with fractional numbers.
