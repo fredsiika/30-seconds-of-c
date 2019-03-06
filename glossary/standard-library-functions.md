@@ -16,3 +16,8 @@ int  main()
     return (0);
 }
 ```
+
+```c
+**Output**
+int main is the main function which is always executed.
+```
