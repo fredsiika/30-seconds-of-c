@@ -17,7 +17,7 @@ int  main()
 }
 ```
 
-```c
 **Output**
+```c
 int main is the main function which is always executed.
 ```
