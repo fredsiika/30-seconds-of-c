@@ -2,7 +2,7 @@
 - Pointers in C language is a variable that stores/points the address of another variable. 
 - A Pointer in C is used to allocate memory dynamically (i.e. at run time). 
 - The pointer variable might be belonging to any of the data type such as:
-	 int, float, char, double, short etc.
+	 `int`, `float`, `char`, `double`, `short` etc.
 
 Pointer Syntax : 
 ```c
@@ -25,7 +25,7 @@ For example:
 
  int *p = '\0'
 ```
-- The value of a null pointer is 0.
+- The value of a `null` pointer is 0.
 - The ampersand symbol '&' is used to get the address of the variable.
 ```c
 void ft_putstr(char *str)
