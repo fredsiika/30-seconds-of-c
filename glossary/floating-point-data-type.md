@@ -1,10 +1,10 @@
 # FLOATING POINT DATA TYPE
 Floating point data type consists of 2 types:
-- float
-- double
+- `float`
+- `double`
 1. **FLOAT:**
-- Float data type allows a variable to store decimal values.
-- Storage size of float data type is 4. This also varies depend upon the processor in the CPU as “int” data type.
+- `Float` data type allows a variable to store decimal values.
+- Storage size of `float` data type is 4. This also varies depend upon the processor in the CPU as `int` data type.
 - We can use up-to 6 digits after decimal using float data type.
 - For example, 10.456789 can be stored in a variable using float data type.
 
