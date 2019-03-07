@@ -46,7 +46,7 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 ### 🎛️[Void Data Type](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/void-data-type.md)
 <summary>View contents</summary>
 
-- <kbd>void</kbd>
+- <kbd>[void](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/void-data-type.md)</kbd>
 
 ---
 ## [Exam Shell](https://github.com/fredsiika/30-seconds-of-c/tree/master/examshell)
