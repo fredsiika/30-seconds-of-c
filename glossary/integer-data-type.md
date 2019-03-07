@@ -23,7 +23,7 @@ signed long    	minimum range: -2,147,483,648..+2,147,483,647
 unsigned long  	minimum range: 0..4,294,967,295
 ```
 A couple of things to note:
-- The type **char** may be equivalent to either a **signed char** or **unsigned char** (this depends on your compiler), but it is always a separate type from either of these.
+- The type `char` may be equivalent to either a `signed char` or `unsigned char` (this depends on your compiler), but it is always a separate type from either of these.
 - Notice that there is no difference between storing characters or their corresponding numerical values in a variable, this means that there is no need for a function to convert between a character and its numerical value or vice-versa (this is different from languages like Pascal or BASIC).
 
 As for the other integer types...
