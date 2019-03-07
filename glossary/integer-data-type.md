@@ -28,7 +28,7 @@ A couple of things to note:
 
 As for the other integer types...
 - If you omit `signed` or `unsigned` the default will be `signed` (i.e. `int` and `signed int` are equivalent).
-- The type **int** must be >= (greater than or equal to) the type **short**, and smaller than or equal to the type **long** (depending on your compiler and operating system).
-- It's a good idea to use the type **int** if you simply need to store some values which are not ridiculously large.
+- The type `int` must be >= (greater than or equal to) the type `short`, and smaller than or equal to the type `long` (depending on your compiler and operating system).
+- It's a good idea to use the type `int` if you simply need to store some values which are not ridiculously large.
 - A good rule of thumb is to stick to the size that your processor can deal with the easiestand fastest.
-- In the next section we cover a larger type '**long long**'. Before resorting to the '**long long**' type, you may want to use the floating-point type first.
+- In the next section we cover a larger type `long long`. Before resorting to the `long long` type, you may want to use the floating-point type first.
