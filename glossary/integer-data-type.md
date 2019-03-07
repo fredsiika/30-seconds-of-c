@@ -7,9 +7,9 @@
 - For 64-bit processor, 8 bytes of memory is allocated for int data type
 
 **Storage values for integer data types**
-- int (2 byte) can store values from -32,768 to +32,767
-- int (4 byte) can stor values from -2,147,483,648 to +2,147,483,647
-- For integer values that cross the above limit, use "long int" and "long long int" for which the limits are very high
+- `int` (2 byte) can store values from -32,768 to +32,767
+- `int` (4 byte) can stor values from -2,147,483,648 to +2,147,483,647
+- For integer values that cross the above limit, use `long int` and `long long int` for which the limits are very high
 
 Integer types: (non-fractional numbers)
 ```c
