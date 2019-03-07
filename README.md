@@ -33,7 +33,7 @@ The core goal of **30 seconds of C** is to provide a public record of my journey
 ### ➗[Enumeration Data Type](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/enumeration-data-type.md)
 <summary>View contents</summary>
 
-- Emumeration <kbd>enum</kbd>
+- <kbd>[enum](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/enumeration-data-type.md)</kbd>
 
 ### 📚[Derived Data Type](https://github.com/fredsiika/30-seconds-of-c/blob/master/glossary/derived-data-type.md)
 <summary>View contents</summary>
