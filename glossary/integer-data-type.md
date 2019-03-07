@@ -27,7 +27,7 @@ A couple of things to note:
 - Notice that there is no difference between storing characters or their corresponding numerical values in a variable, this means that there is no need for a function to convert between a character and its numerical value or vice-versa (this is different from languages like Pascal or BASIC).
 
 As for the other integer types...
-- If you omit **signed** or **unsigned** the default will be **signed** (i.e. **int** and **signed int** are equivalent).
+- If you omit `signed` or `unsigned` the default will be `signed` (i.e. `int` and `signed int` are equivalent).
 - The type **int** must be >= (greater than or equal to) the type **short**, and smaller than or equal to the type **long** (depending on your compiler and operating system).
 - It's a good idea to use the type **int** if you simply need to store some values which are not ridiculously large.
 - A good rule of thumb is to stick to the size that your processor can deal with the easiestand fastest.
