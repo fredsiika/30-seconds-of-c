@@ -1,10 +1,10 @@
 # Array in C
-C Array is a collection of variables belongings to the same data type. You can store group of data of same data type in an array.
+A C Array is a collection of variables belonging to the same data type. You can store lots of data of the same data type in an array.
 
-Array might be belonging to any of the data types
-Array size must be a constant value.
-Always, Contiguous (adjacent) memory locations are used to store array elements in memory.
-It is a best practice to initialize an array to zero or null while declaring, if we don’t assign any values to array.
+Array might be belonging to any of the defined data types.
+The size of an array is usually a constant value or an expression that results in a constant value. The provision of a variable-length array in ISO C99 is an exception, where an array can be defined with no size specification. This kind of initialization is not supported in certain compilers.
+Contiguous (adjacent) memory locations are used to store array elements in memory.
+It is best practice to initialize an array to zero or null while declaring, if we don’t assign any values to array.
 
 **EXAMPLE FOR C ARRAYS:**
 ```c
